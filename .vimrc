@@ -25,7 +25,7 @@ else
 endif
 
 " close the documentation window when competion is done
-autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
+" autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
 
 " Neomake
 let g:neomake_javascript_enabled_makers = ['eslint']
@@ -48,13 +48,12 @@ filetype plugin indent on
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set t_Co=256
-let base16colorspace=256
-set background=dark
-colorscheme base16-railscasts
 
 " Clipboard settings
 set clipboard=unnamed
 
 " Show line numbers
 set number
+set relativenumber
+
+set timeoutlen=1000 ttimeoutlen=0
