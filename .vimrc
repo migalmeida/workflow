@@ -53,3 +53,8 @@ let base16colorspace=256
 set background=dark
 colorscheme base16-railscasts
 
+" Clipboard settings
+set clipboard=unnamed
+
+" Show line numbers
+set number
