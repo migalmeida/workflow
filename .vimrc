@@ -54,6 +54,6 @@ set clipboard=unnamed
 
 " Show line numbers
 set number
-" set relativenumber
+set relativenumber
 
 set timeoutlen=1000 ttimeoutlen=0
