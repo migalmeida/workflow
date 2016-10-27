@@ -3,8 +3,8 @@ so ~/.vim/plugins
 so ~/.vim/mappings
 
 " Theme
-" colorscheme base16-railscasts
-" let base16colorspace=256  " Access colors present in 256 colorspace
+colorscheme base16-railscasts
+let base16colorspace=256  " Access colors present in 256 colorspace
 
 " Plugins
 let g:deoplete#enable_at_startup = 1
