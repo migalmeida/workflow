@@ -57,3 +57,7 @@ set number
 set relativenumber
 
 set timeoutlen=1000 ttimeoutlen=0
+
+" Reduce update time for gitgutter
+set updatetime=250
+
