@@ -1,0 +1,5 @@
+nnoremap , :
+inoremap jk <Esc>
+
+nmap J 5j
+nmap K 5k

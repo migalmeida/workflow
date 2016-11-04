@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/miguelalmeida/dev'
+let g:netrw_dirhist_2='/Users/miguelalmeida/dev/ppsms-functional-tests'
+let g:netrw_dirhist_3='/Users/miguelalmeida/dev/animateViews'
+let g:netrw_dirhist_4='/Users/miguelalmeida/.vim'
+let g:netrw_dirhist_5='/Users/miguelalmeida/.vim/plugged'
+let g:netrw_dirhist_6='/Users/miguelalmeida/.vim'

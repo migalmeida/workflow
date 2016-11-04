@@ -1,0 +1,33 @@
+call plug#begin('~/.vim/plugged')
+
+Plug 'Shougo/deoplete.nvim', { 'do': 'UpdateRemotePlugins' }
+Plug 'chriskempson/base16-vim'
+
+" Auto-complete helpers
+Plug 'ujihisa/neco-look'
+Plug 'Shougo/context_filetype.vim'
+Plug 'Shougo/neopairs.vim'
+Plug 'Shougo/neoinclude.vim'
+Plug 'carlitux/deoplete-ternjs'
+Plug 'wellle/tmux-complete.vim'
+Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
+Plug 'othree/javascript-libraries-syntax.vim'
+Plug 'alvan/vim-closetag'
+Plug 'jiangmiao/auto-pairs'
+Plug 'airblade/vim-gitgutter'
+
+Plug 'jelera/vim-javascript-syntax'
+Plug 'pangloss/vim-javascript'
+Plug 'matthewsimo/angular-vim-snippets'
+Plug 'claco/jasmine.vim'
+Plug 'burnettk/vim-angular'
+
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+
+" Languages Support
+Plug 'gorodinskiy/vim-coloresque', {'for': 'css,less,scss,html,js,javascript'} " color hex rgb etc
+Plug 'marijnh/tern_for_vim', {'do': 'npm install'} " execute js in runtime
+Plug 'benekastah/neomake' " error handling
+
+
+call plug#end()
