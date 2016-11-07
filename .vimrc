@@ -44,7 +44,7 @@ else
 endif
 
 " close the documentation window when competion is done
-" autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
+autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
 
 " Neomake
 let g:neomake_javascript_enabled_makers = ['eslint']
