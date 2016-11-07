@@ -1,51 +1,52 @@
 [user]
-	name = Miguel Almeida
-	email = miguel.almeida@blip.pt
+    name = Miguel Almeida
+    email = miguel.almeida@blip.pt
 
 [core]
-	excludesfile = /Users/miguelalmeida/.gitignore_global
+    excludesfile = /Users/miguelalmeida/.gitignore_global
     editor = vim 
     ignorecase = false
 
 [alias]
     c  = commit -m
     g  = log --graph --decorate --oneline
-	aa = add --all
-	co = checkout
-	d  = diff
-	p  = pull
+    aa = add --all
+    co = checkout
+    d  = diff
+    p  = pull
     pu = push
-	s  = status
-	b  = branch
-	st = status --short --branch
-	un = reset --hard HEAD
+    s  = status
+    b  = branch
+    st = status --short --branch
+    un = reset --hard HEAD
+    lg = log --abbrev-commit --no-merges --pretty='%h (%ad) - [%an] %s %d' --date=format:'%b %d %Y'
 
 [color]
-	ui = true
+    ui = true
     interactive = auto 
     branch = auto 
     diff = auto 
     status = auto
 
 [color "branch"]
-  current = green bold
-  local = green
-  remote = red bold
+    current = green bold
+    local = green
+    remote = red bold
 
 [color "diff"]
-  meta = yellow bold ul
-  frag = cyan bold ul
-  old = red bold
-  new = green bold
+    meta = yellow bold ul
+    frag = cyan bold ul
+    old = red bold
+    new = green bold
 
 [color "status"]
-  added = green bold
-  changed = yellow bold
-  untracked = red bold
+    added = green bold
+    changed = yellow bold
+    untracked = red bold
 
 [branch]
-	autosetuprebase = always
+    autosetuprebase = always
 
 [url "https://"]
-	insteadOf = git://
-    
+    insteadOf = git://
+
