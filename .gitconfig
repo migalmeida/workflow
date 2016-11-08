@@ -17,7 +17,6 @@
     pu = push
     s  = status
     b  = branch
-    st = status --short --branch
     un = reset --hard HEAD
     lg = log --abbrev-commit --no-merges --pretty='%h (%ad) - [%an] %s %d' --date=format:'%b %d %Y'
 
