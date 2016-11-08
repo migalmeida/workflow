@@ -32,12 +32,6 @@
     local = green
     remote = red bold
 
-[color "diff"]
-    meta = yellow bold ul
-    frag = cyan bold ul
-    old = red bold
-    new = green bold
-
 [color "status"]
     added = green bold
     changed = yellow bold
