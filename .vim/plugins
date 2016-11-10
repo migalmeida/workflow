@@ -1,9 +1,9 @@
 call plug#begin('~/.vim/plugged')
 
-Plug 'Shougo/deoplete.nvim', { 'do': 'UpdateRemotePlugins' }
+Plug 'Shougo/deoplete.nvim', { 'commit' : '5fc5ed7', 'do': 'UpdateRemotePlugins' }
 Plug 'chriskempson/base16-vim'
 
-" Auto-complete helpers
+"Auto-complete helpers
 Plug 'ujihisa/neco-look'
 Plug 'Shougo/context_filetype.vim'
 Plug 'Shougo/neopairs.vim'
