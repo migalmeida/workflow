@@ -3,5 +3,7 @@ inoremap jk <Esc>
 
 nmap J 5j
 nmap K 5k
+nmap H 4h
+nmap L 4l
 
 nnoremap <C-g> :NERDTreeToggle<CR>
