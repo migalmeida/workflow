@@ -23,6 +23,8 @@ Plug 'burnettk/vim-angular'
 
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+
 " Languages Support
 Plug 'gorodinskiy/vim-coloresque', {'for': 'css,less,scss,html,js,javascript'} " color hex rgb etc
 Plug 'marijnh/tern_for_vim', {'do': 'npm install'} " execute js in runtime
