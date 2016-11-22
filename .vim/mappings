@@ -7,3 +7,4 @@ nmap H 4h
 nmap L 4l
 
 nnoremap <C-g> :NERDTreeToggle<CR>
+nnoremap <C-p> :FZF<CR>
