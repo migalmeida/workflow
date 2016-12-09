@@ -1,0 +1,16 @@
+*
+!.tmux.conf
+!.vimrc
+
+!.vim
+!.vim/*
+!.vim/autoload/*
+!.bashrc
+!.gitconfig
+!.scripts
+!.scripts/*
+
+!.git-templates/
+!.git-templates/**/*
+
+!.gitignore
