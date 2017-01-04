@@ -29,6 +29,8 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 
+Plug 'easymotion/vim-easymotion'
+
 " Languages Support
 Plug 'gorodinskiy/vim-coloresque', {'for': 'css,less,scss,html,js,javascript'} " color hex rgb etc
 Plug 'marijnh/tern_for_vim', {'do': 'npm install'} " execute js in runtime
