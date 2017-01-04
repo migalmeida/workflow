@@ -18,7 +18,7 @@
     s  = status
     b  = branch
     un = reset --hard HEAD
-    lg = log --abbrev-commit --no-merges --pretty='%h (%ad) - [%an] %s %d' --date=format:'%b %d %Y'
+    lg = log --abbrev-commit --pretty='%h (%ad) - [%an] %s %d' --date=format:'%b %d %Y'
 
 [color]
     ui = true
