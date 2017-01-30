@@ -21,6 +21,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'matthewsimo/angular-vim-snippets'
 Plug 'claco/jasmine.vim'
 Plug 'burnettk/vim-angular'
+Plug 'leafgarland/typescript-vim'
 
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
